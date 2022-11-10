@@ -1,0 +1,16 @@
+<div class="container d-flex justify-content-center">
+  <div class="mt-4 card container-fluid">
+    <div class="user text-center">
+      <div class="profile">
+        <img [src]="profilePicture" class="rounded-circle img-fluid" width="45%">
+      </div>
+    </div>
+    <div class="mt-2 text-center">
+      <h4 class="mb-0 displayName">{{userDetails?.displayName}}</h4>
+      <span class="text-muted d-block mb-2">
+        <b>{{userDetails?.mail}}</b>
+        <p>{{userDetails?.jobTitle}}</p>
+      </span>
+    </div>
+  </div>
+</div>

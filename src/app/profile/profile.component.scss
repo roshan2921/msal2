@@ -1,0 +1,43 @@
+body {
+  background-color: #545454;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  height: 92vh;
+  background-color: #F4F6F8;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  padding: 8px;
+  background-color: #fff;
+  position: relative;
+  height: 370px;
+}
+
+.user {
+  position: relative;
+}
+
+.profile {
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.follow {
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 35px;
+}
+
+.stats span {
+  font-size: 29px;
+}
+
+.displayName {
+  color: #01276D;
+}
